@@ -1,0 +1,15 @@
+@custom-media --viewport-large(min-width:10em)
+
+@media(--viewport-large) {
+    padding: 2rem;
+}
+
+nav {
+    padding: 1rem;
+
+    & ul{
+        margin: 0;
+        padding: 0;
+    }
+}
+

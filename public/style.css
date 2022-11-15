@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background: red;
+    font-size: 1.125rem;
+}
+
+article {
+    background: red;
+}
+
+article .title { font-size: 1.125rem}
+
+@custom-media --viewport-large(min-width:10em)
+
+@media(--viewport-large) {
+    padding: 2rem;
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav ul{
+        margin: 0;
+        padding: 0;
+    }
+
+.container {
+    width: 100%;
+    max-width: 70rem;
+    margin-inlin: auto;
+}
+
+.flow > :where(not(:first-child)) {
+    margin-top: 1rem;
+    margin-top: var(--flow-space, 1rem)
+}
+
+.fs-900 {
+    font-size: 5rem;
+}
+
+.fs-800 {
+    font-size: 4rem;
+}

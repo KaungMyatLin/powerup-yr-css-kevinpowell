@@ -1,0 +1,19 @@
+{
+  "name": "learn-howto-powerup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss src/style.css --dir public --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-preset-env": "^7.8.3"
+  }
+}

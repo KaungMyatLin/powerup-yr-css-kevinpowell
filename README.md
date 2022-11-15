@@ -1,0 +1,1 @@
+## this folder structure is for using SASS, SCSS.
